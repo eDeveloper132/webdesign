@@ -4,7 +4,7 @@ export default function Hero(){
     return(
         <div className="bg-white w-[1920px]">
         <div className="w-[1920px] h-[829px] top-[92px] left-[1px] py-[140px] px-[220px] bg-[#043873] flex gap-[60px]">
-            <div className="space-y-12 w-[656px] h-[361px] py-28">
+            <div className="space-y-12 w-[656px] h-[361px] py-28 text-white">
                 <p className="text-6xl font-bold">GET MORE DONE WITH WHITESPACE</p>
                 <p className="text-2xl">Protect management softwares that enables your teams to collaborate, plan, analyze, and manage everyday tasks</p>
                 <button className="bg-[#4F9CF9] w-[219px] h-[63px] rounded-[8px] p-5 text-lg">Try WhiteSpace Free</button>
@@ -35,7 +35,7 @@ export default function Hero(){
 
         </div>
         <div className="w-[1920px] h-[829px] top-[92px] left-[1px] py-[140px] px-[220px] bg-[#043873] flex gap-[60px]">
-            <div className="space-y-12 w-[656px] h-[361px] py-32">
+            <div className="space-y-12 w-[656px] h-[361px] py-32 text-white">
                 <p className="text-6xl font-bold">Use as Extension</p>
                 <p className="text-2xl">Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.</p>
                 <button className="bg-[#4F9CF9] w-[219px] h-[63px] rounded-[8px] p-5 text-lg">Lets Go</button>
@@ -54,7 +54,7 @@ export default function Hero(){
 
         </div>
         <div className='w-[1921px] h-[574px] top-[4080px] left-[1px] py-[140px] px-[220px] bg-[#043873]'>
-            <div className='w-[1481px] h-[294px] flex flex-col gap-20'>
+            <div className='w-[1481px] h-[294px] flex flex-col gap-20 text-white'>
                 <div className='flex flex-col w-full h-[171px] gap-8'>
                 <div className='font-bold text-6xl mx-auto'>Your work, everywhere you are</div>
                 <div className='text-xl text-justify mx-auto'>Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</div>

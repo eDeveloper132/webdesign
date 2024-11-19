@@ -3,7 +3,7 @@ export default function Header() {
         <nav className="w-[1920px] h-[92px] left-[1px] flex justify-between py-4 px-[220px] bg-[#043873]">
             <p className="w-[191px] h-[34px] justify-between text-white font-bold text-3xl py-4">WhiteSpace</p>
             <div className="w-[737.5px] h-[60px] gap-[60px] flex">
-                <ul className="flex w-[549px] h-[23px] gap-[32px] py-4">
+                <ul className="flex w-[549px] h-[23px] gap-[32px] py-4 text-white">
                     <li>Products</li>
                     <li>Solutions</li>
                     <li>Resources</li>
