@@ -2,7 +2,7 @@ export default function Footer(){
     return(
         <div>
         <div className="w-[1920px] h-[461px] top-[5195px] left-[1px] pt-[140px] pb-8 px-[220px] flex justify-center bg-[#043873]">
-            <div className="w-[1480px] h-[289px] flex justify-between">
+            <div className="w-[1480px] h-[290px] flex justify-between">
                 <div className="w-[295px] h-[169px] flex flex-col gap-4">
                     <div className="text-3xl font-bold">WhiteSpace</div>
                     <div className="text-justify">whitepace was created for the new ways we live and work. We make a better workspace around the world , whitepace was created for the new ways we live and work. We make a better workspace around the world</div>
