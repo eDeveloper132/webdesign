@@ -1,5 +1,5 @@
-import logo from '@/app/ikhs.webp'
 import Image from 'next/image'
+import logo from '../../../public/cleaned_pnaj.jpg'
 export default function Hero(){
     return(
         <div className="bg-white w-[1920px]">
@@ -24,8 +24,8 @@ export default function Hero(){
             </div>
         </div>
         <div className="w-[1920px] h-[1100px] top-[921px] left-[1px] py-[140px] px-[220px] flex gap-[100px]">
-            <div className="w-[748px] h-[547px]">
-                <Image src={logo} alt='Image'></Image>
+        <div className="w-[748px] h-[547px]">
+                <Image src={logo} alt='Image' height={547} width={748}></Image>
             </div>
             <div className="space-y-12 w-[672px] h-[411px] py-52">
                     <p className="text-6xl font-bold text-black">Work Together</p>
