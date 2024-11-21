@@ -1,13 +1,13 @@
-import logo from '@/app/ikhs.webp'
 import Image from 'next/image'
+import logo from '../../../public/cleaned_pnaj.jpg'
 export default function Hero(){
     return(
         <div className="bg-white w-[1920px]">
         <div className="w-[1920px] h-[829px] top-[92px] left-[1px] py-[140px] px-[220px] bg-[#043873] flex gap-[60px]">
             <div className="space-y-12 w-[656px] h-[361px] py-28">
-                <p className="text-6xl font-bold">GET MORE DONE WITH WHITESPACE</p>
+                <p className="text-6xl font-bold">GET MORE DONE WITH WHITEPACE</p>
                 <p className="text-2xl">Protect management softwares that enables your teams to collaborate, plan, analyze, and manage everyday tasks</p>
-                <button className="bg-[#4F9CF9] w-[219px] h-[63px] rounded-[8px] p-5 text-lg">Try WhiteSpace Free</button>
+                <button className="bg-[#4F9CF9] w-[219px] h-[63px] rounded-[8px] p-5 text-lg">Try Whitepace Free</button>
             </div>
             <div className="w-[824px] h-[549px] bg-[#C4DEFD]"></div>
         </div>
@@ -25,11 +25,11 @@ export default function Hero(){
         </div>
         <div className="w-[1920px] h-[1100px] top-[921px] left-[1px] py-[140px] px-[220px] flex gap-[100px]">
             <div className="w-[748px] h-[547px]">
-                <Image src={logo} alt='Image'></Image>
+                <Image src={logo} alt='Image' height={547} width={748}></Image>
             </div>
             <div className="space-y-12 w-[672px] h-[411px] py-52">
                     <p className="text-6xl font-bold text-black">Work Together</p>
-                    <p className="text-2xl text-black">With WhiteSpace share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and shate the URL with others.</p>
+                    <p className="text-2xl text-black">With Whitepace share your notes with your colleagues and collaborate on them. You can also publish a note to the internet and shate the URL with others.</p>
                     <button className="w-[201px] h-[63px] rounded-[6px] py-[20px] px-[40px] text-lg bg-[#4F9CF9] text-white">Try it now</button>
                 </div>
 
